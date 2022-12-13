@@ -1,0 +1,35 @@
+{
+  "campo": {
+    "nombre": {
+      "label": "Nombre",
+      "value": "",
+      "required": true,
+      "messages": "El nombre es requerido"
+    },
+    "apellido": {
+      "label": "Apellido",
+      "value": "",
+      "required": true,
+      "messages": "El apellido es requerido"
+    },
+    "edad": {
+      "label": "Edad",
+      "value": "",
+      "required": true,
+      "messages": "La edad es requerida"
+    }
+  },
+  "if_error": {
+    "messages": "Escriba nuevamente: "
+  },
+  "acciones": {
+    "guardar": {
+      "label": "guardar",
+      "function": "guardar_datos"
+    },
+    "cancelar": {
+      "label": "cancelar",
+      "function": "cancelar_accion"
+    }
+  }
+}
